@@ -6,9 +6,10 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
+	<meta name="yandex-verification" content="2759e36b7aae8742" />
 
         <!-- Favicon -->
-        <link href="{{ url_for('static', filename = 'img/favicon.ico') }}" rel="icon">
+	<!--        <link href="{{ url_for('static', filename = 'img/favicon.ico') }}" rel="icon">-->
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +33,26 @@
     </head>
 
     <body>
-        <!-- Spinner Start -->
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();
+	   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+	   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+	
+	   ym(91770317, "init", {
+	        clickmap:true,
+        	trackLinks:true,
+	        accurateTrackBounce:true,
+        	webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/91770317" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+
+	<!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
